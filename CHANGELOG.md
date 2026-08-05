@@ -1,9 +1,30 @@
 # Changelog
 
-All notable changes to **Artha** will be documented in this file.
-
-The project follows Semantic Versioning.
+All notable changes to this project will be documented in this file.
 
 ---
 
-_No releases yet._
+## [0.1.0] - 2026-08-05
+
+### Added
+
+#### Project Foundation
+- Repository initialization
+- Standard project structure
+- Bootstrap automation
+- GitHub integration
+
+#### Data Ingestion
+- Yahoo Finance downloader
+- Type-safe download API
+- Fail-fast error handling
+
+#### Data Validation
+- Centralized validation module
+- DataFrame validation pipeline
+- Structural integrity checks
+
+#### Documentation
+- Initial README
+- Initial PRD
+- Initial Engineering Decision Records
