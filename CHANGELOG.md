@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 
 ---
 
-## [0.1.0] - 2026-08-05
+## [0.1.0] - 05-08-2026
 
 ### Added
 
@@ -23,6 +23,11 @@ All notable changes to this project will be documented in this file.
 - Centralized validation module
 - DataFrame validation pipeline
 - Structural integrity checks
+
+### Storage
+- Added raw data storage module.
+- Implemented CSV persistence for validated stock market data.
+- Completed end-to-end ingestion pipeline.
 
 #### Documentation
 - Initial README

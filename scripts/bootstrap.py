@@ -40,6 +40,7 @@ FOLDERS = [
     "src/artha/visualization",
     "src/artha/utils",
     "src/artha/pipelines",
+    "src/artha/storage",
 
     # Tests
     "tests",
