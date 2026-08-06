@@ -54,15 +54,16 @@ Features:
 - Standardized filename generation from ticker symbols.
 - Return saved file path for downstream use.
 
-
 ---
 
-## Current Pipeline
+## Data Processing
 
-Download
-    ↓
-Validate
-    ↓
-Store
+Status: ✅ Complete
+
+Features:
+- Read raw market data.
+- Flatten MultiIndex columns.
+- Standardize column names.
+- Save processed datasets.
+
 ---
-

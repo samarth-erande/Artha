@@ -100,3 +100,23 @@ Maintain a single `validate_data()` function until validation complexity justifi
 - Avoid premature abstraction.
 - Keep validator simple.
 - Refactor only when needed.
+
+---
+
+# EDR-009 — Immutable Raw Data Storage
+
+## Decision
+
+Raw market data shall remain immutable after it is downloaded and validated.
+
+All transformations, cleaning, and feature engineering must generate new datasets instead of modifying the original raw data.
+
+##  Rationale
+
+- Preserves the original downloaded data.
+- Enables reproducible data pipelines.
+- Allows processing logic to evolve without re-downloading data.
+- Simplifies debugging and recovery from processing errors.
+- Aligns with industry-standard data engineering practices.
+
+---
