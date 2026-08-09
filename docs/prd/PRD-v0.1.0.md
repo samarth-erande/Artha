@@ -67,3 +67,14 @@ Features:
 - Save processed datasets.
 
 ---
+
+## Financial Analytics
+
+Status: ✅ Complete
+
+Features:
+- Calculate daily returns.
+- Calculate cumulative returns.
+- Calculate price statistics.
+- Calculate volume statistics.
+- Calculate volatility.

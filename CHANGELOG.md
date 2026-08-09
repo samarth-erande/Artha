@@ -33,3 +33,19 @@ All notable changes to this project will be documented in this file.
 - Initial README
 - Initial PRD
 - Initial Engineering Decision Records
+
+### Data Processing
+
+- Added processing module.
+- Implemented raw-to-processed data transformation.
+- Flattened MultiIndex column structure.
+- Standardized processed dataset format.
+
+### Financial Analytics
+
+- Added financial analytics module.
+- Implemented daily return calculation.
+- Implemented cumulative return calculation.
+- Implemented price statistics.
+- Implemented volume statistics.
+- Implemented volatility calculation.
