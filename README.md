@@ -82,9 +82,19 @@ Future capabilities will be integrated as the project evolves.
 
 **Status:** Active Development
 
-**Current Milestone:** Repository Foundation
+**Current Milestone:** Financial Data Pipeline
 
-The first functional release will introduce Financial Data Ingestion.
+The first functional release now includes:
+
+- Financial Data Ingestion
+- Data Validation
+- Raw Data Storage
+- Data Processing
+- Financial Analytics
+
+**Current Pipeline:**
+
+Download → Validate → Store → Process → Analyze
 
 ---
 
