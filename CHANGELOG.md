@@ -40,6 +40,16 @@ All notable changes to this project will be documented in this file.
 - Implemented raw-to-processed data transformation.
 - Flattened MultiIndex column structure.
 - Standardized processed dataset format.
+### Data Processing
+
+- Enhanced processing pipeline with data-quality handling.
+- Added OHLCV numeric type conversion.
+- Added missing-value handling.
+- Added exact duplicate-row removal.
+- Added duplicate-date detection.
+- Added chronological sorting.
+- Added financial-data sanity checks.
+- Verified processed output through end-to-end testing.
 
 ### Financial Analytics
 

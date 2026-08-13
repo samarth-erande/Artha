@@ -64,6 +64,13 @@ Features:
 - Read raw market data.
 - Flatten MultiIndex columns.
 - Standardize column names.
+- Convert the Date index to datetime.
+- Convert OHLCV columns to numeric data types.
+- Handle missing OHLCV values.
+- Remove exact duplicate rows.
+- Reject duplicate dates.
+- Sort data chronologically.
+- Validate financial-data relationships.
 - Save processed datasets.
 
 ---

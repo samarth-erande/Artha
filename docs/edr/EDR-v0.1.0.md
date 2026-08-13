@@ -120,3 +120,15 @@ All transformations, cleaning, and feature engineering must generate new dataset
 - Aligns with industry-standard data engineering practices.
 
 ---
+
+# EDR-010 — Data Quality Handling in Processing
+
+## Decision
+
+Handle data-quality issues in the Processing layer, including missing OHLCV values, exact duplicates, duplicate dates, chronological ordering, numeric type conversion, and financial-data sanity checks.
+
+## Rationale
+
+The Validator is responsible for structural validation, while Processing is responsible for transforming raw data into clean, analysis-ready data. Keeping these responsibilities separate prevents the validator from modifying data and ensures the raw dataset remains immutable.
+
+---
