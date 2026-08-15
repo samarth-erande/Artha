@@ -87,3 +87,5 @@ Features:
 - Calculate volatility.
 - Calculate drawdown.
 - Calculate maximum drawdown.
+- Calculate rolling mean with configurable window size.
+- Calculate rolling volatility with configurable window size.

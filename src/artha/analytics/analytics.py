@@ -23,7 +23,7 @@ This module does NOT:
 import pandas as pd
 
 
-def calculate_metrics(data: pd.DataFrame) -> dict:
+def calculate_metrics(data: pd.DataFrame,window: int = 20,) -> dict:
 
 
     daily_returns = data["Close"].pct_change()
@@ -42,6 +42,10 @@ def calculate_metrics(data: pd.DataFrame) -> dict:
 
     maximum_drawdown = drawdown.min()
 
+    rolling_mean = data["Close"].rolling(window).mean()
+
+    rolling_volatility = daily_returns.rolling(window).std()
+
     return {
         "daily_returns": daily_returns,
         "cumulative_return": cumulative_return,
@@ -50,4 +54,6 @@ def calculate_metrics(data: pd.DataFrame) -> dict:
         "volatility": volatility,
         "drawdown": drawdown,
         "maximum_drawdown": maximum_drawdown,
+        "rolling_mean": rolling_mean,
+        "rolling_volatility": rolling_volatility,
     }

@@ -61,3 +61,7 @@ All notable changes to this project will be documented in this file.
 - Implemented volatility calculation.
 - Added drawdown calculation.
 - Added maximum drawdown calculation.
+- Added rolling mean calculation.
+- Added rolling volatility calculation.
+- Added configurable rolling window parameter.
+- Preserved expected NaN values for periods with insufficient historical observations.
