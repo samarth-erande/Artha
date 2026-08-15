@@ -59,3 +59,5 @@ All notable changes to this project will be documented in this file.
 - Implemented price statistics.
 - Implemented volume statistics.
 - Implemented volatility calculation.
+- Added drawdown calculation.
+- Added maximum drawdown calculation.

@@ -36,10 +36,18 @@ def calculate_metrics(data: pd.DataFrame) -> dict:
 
     volatility = daily_returns.std()
 
+    running_max = data["Close"].cummax()
+
+    drawdown = (data["Close"] - running_max) / running_max
+
+    maximum_drawdown = drawdown.min()
+
     return {
         "daily_returns": daily_returns,
         "cumulative_return": cumulative_return,
         "price_statistics": price_statistics,
         "volume_statistics": volume_statistics,
         "volatility": volatility,
+        "drawdown": drawdown,
+        "maximum_drawdown": maximum_drawdown,
     }

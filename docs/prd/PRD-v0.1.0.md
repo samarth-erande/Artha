@@ -85,3 +85,5 @@ Features:
 - Calculate price statistics.
 - Calculate volume statistics.
 - Calculate volatility.
+- Calculate drawdown.
+- Calculate maximum drawdown.
