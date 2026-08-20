@@ -132,3 +132,20 @@ Handle data-quality issues in the Processing layer, including missing OHLCV valu
 The Validator is responsible for structural validation, while Processing is responsible for transforming raw data into clean, analysis-ready data. Keeping these responsibilities separate prevents the validator from modifying data and ensures the raw dataset remains immutable.
 
 ---
+# EDR-011 — Independent Plot Functions and Dedicated Dashboard Composition
+
+## Decision
+
+Maintain individual visualization functions as independent reusable plots, while implementing the financial dashboard as a separate dedicated composition function.
+
+The dashboard will not directly reuse the existing plot functions because those functions create and return their own independent Matplotlib figures and axes.
+
+## Rationale
+
+- Individual plot functions remain reusable independently in notebooks, reports, applications, and future dashboards.
+- The dashboard requires shared axes, coordinated layout, subplot spacing, common titles, and combined presentation.
+- Reusing the existing functions directly would couple independently created figures and axes to the dashboard layout.
+- A dedicated dashboard function keeps basic visualization and dashboard composition as separate responsibilities.
+- This allows the individual plots to remain simple while the dashboard can evolve independently.
+
+---

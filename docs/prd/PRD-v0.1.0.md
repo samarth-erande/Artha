@@ -89,3 +89,19 @@ Features:
 - Calculate maximum drawdown.
 - Calculate rolling mean with configurable window size.
 - Calculate rolling volatility with configurable window size.
+
+---
+
+## Financial Visualization
+
+Status: ✅ Complete
+
+Features:
+- Plot closing price over time.
+- Plot trading volume over time.
+- Plot closing price with configurable moving average.
+- Plot drawdown over time.
+- Create a combined financial analysis dashboard.
+- Display key financial metrics within the dashboard.
+- Return Matplotlib Figure objects for reusable visualization.
+- Support configurable rolling-window visualization.

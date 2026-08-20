@@ -65,3 +65,14 @@ All notable changes to this project will be documented in this file.
 - Added rolling volatility calculation.
 - Added configurable rolling window parameter.
 - Preserved expected NaN values for periods with insufficient historical observations.
+
+### Financial Visualization v0.2.0
+
+- Added combined financial analysis dashboard.
+- Added price and moving-average visualization.
+- Added volume visualization.
+- Added drawdown visualization.
+- Added cumulative return, volatility, and maximum drawdown summary.
+- Added configurable moving-average window.
+- Improved dashboard layout and subplot spacing.
+- Verified visualization through end-to-end testing.

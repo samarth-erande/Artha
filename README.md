@@ -82,19 +82,21 @@ Future capabilities will be integrated as the project evolves.
 
 **Status:** Active Development
 
-**Current Milestone:** Financial Data Pipeline
+**Current Milestone:** Financial Visualization
 
-The first functional release now includes:
+The current functional pipeline includes:
 
 - Financial Data Ingestion
 - Data Validation
 - Raw Data Storage
 - Data Processing
 - Financial Analytics
+- Financial Visualization
+- Integrated Financial Dashboard
 
 **Current Pipeline:**
 
-Download → Validate → Store → Process → Analyze
+Download → Validate → Store → Process → Analyze → Visualize
 
 ---
 
