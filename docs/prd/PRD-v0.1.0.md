@@ -105,3 +105,8 @@ Features:
 - Display key financial metrics within the dashboard.
 - Return Matplotlib Figure objects for reusable visualization.
 - Support configurable rolling-window visualization.
+- Plot daily return distribution.
+- Plot closing price distribution.
+- Plot trading volume distribution.
+- Plot OHLCV correlation heatmap.
+- Support statistical visualization using Seaborn.

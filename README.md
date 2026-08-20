@@ -98,6 +98,17 @@ The current functional pipeline includes:
 
 Download → Validate → Store → Process → Analyze → Visualize
 
+**Visualization includes:**
+
+- Financial Analysis Dashboard
+- Price and Moving Average
+- Volume
+- Drawdown
+- Return Distribution
+- Price Distribution
+- Volume Distribution
+- OHLCV Correlation Heatmap
+
 ---
 
 ## 📚 Documentation

@@ -74,5 +74,8 @@ All notable changes to this project will be documented in this file.
 - Added drawdown visualization.
 - Added cumulative return, volatility, and maximum drawdown summary.
 - Added configurable moving-average window.
-- Improved dashboard layout and subplot spacing.
-- Verified visualization through end-to-end testing.
+- Added daily return distribution visualization.
+- Added closing price distribution visualization.
+- Added trading volume distribution visualization.
+- Added OHLCV correlation heatmap.
+- Added Seaborn-based statistical visualizations.
