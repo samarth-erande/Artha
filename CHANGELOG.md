@@ -74,8 +74,26 @@ All notable changes to this project will be documented in this file.
 - Added drawdown visualization.
 - Added cumulative return, volatility, and maximum drawdown summary.
 - Added configurable moving-average window.
+
+### Financial Visualization v0.3.0
+
 - Added daily return distribution visualization.
 - Added closing price distribution visualization.
 - Added trading volume distribution visualization.
 - Added OHLCV correlation heatmap.
 - Added Seaborn-based statistical visualizations.
+
+
+### Financial Visualization v0.4.0
+
+- Added integrated statistical analysis dashboard.
+- Combined return distribution, price distribution, volume distribution, and OHLCV correlation heatmap.
+
+
+### Financial Visualization v0.5.0
+
+- Added cumulative return time-series visualization.
+- Added rolling mean time-series visualization.
+- Added rolling volatility time-series visualization.
+- Added drawdown time-series visualization.
+- Integrated existing analytics outputs into time-series visualizations.

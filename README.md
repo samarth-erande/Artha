@@ -98,16 +98,38 @@ The current functional pipeline includes:
 
 Download → Validate → Store → Process → Analyze → Visualize
 
-**Visualization includes:**
+## 📊 Financial Visualization
 
-- Financial Analysis Dashboard
-- Price and Moving Average
-- Volume
+Artha currently provides a reusable financial visualization layer built with Matplotlib and Seaborn.
+
+### Financial Visualizations
+- Closing Price
+- Trading Volume
+- Moving Average
 - Drawdown
-- Return Distribution
-- Price Distribution
-- Volume Distribution
+
+### Financial Dashboard
+- Price + Moving Average
+- Trading Volume
+- Drawdown
+- Key Financial Metrics
+
+### Statistical Visualizations
+- Daily Return Distribution
+- Closing Price Distribution
+- Trading Volume Distribution
 - OHLCV Correlation Heatmap
+
+### Statistical Dashboard
+- Integrated statistical analysis view
+
+### Time-Series Analysis
+- Cumulative Return
+- Rolling Mean
+- Rolling Volatility
+- Drawdown Over Time
+
+Visualization functions return Matplotlib Figure objects, allowing them to be reused across notebooks, dashboards, reports, and future applications.
 
 ---
 

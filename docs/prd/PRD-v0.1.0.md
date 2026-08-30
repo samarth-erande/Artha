@@ -96,17 +96,40 @@ Features:
 
 Status: ✅ Complete
 
-Features:
+### Foundational Visualizations
 - Plot closing price over time.
 - Plot trading volume over time.
 - Plot closing price with configurable moving average.
 - Plot drawdown over time.
+
+### Financial Dashboard
 - Create a combined financial analysis dashboard.
-- Display key financial metrics within the dashboard.
+- Display price with moving average.
+- Display trading volume.
+- Display drawdown.
+- Display cumulative return, volatility, and maximum drawdown.
 - Return Matplotlib Figure objects for reusable visualization.
-- Support configurable rolling-window visualization.
+
+### Statistical Visualizations
 - Plot daily return distribution.
 - Plot closing price distribution.
 - Plot trading volume distribution.
 - Plot OHLCV correlation heatmap.
-- Support statistical visualization using Seaborn.
+- Use Seaborn for statistical visualizations.
+
+### Statistical Dashboard
+- Create a combined statistical analysis dashboard.
+- Combine return, price, and volume distributions with the OHLCV correlation heatmap.
+
+### Time-Series Visualizations
+- Plot cumulative return over time.
+- Plot rolling mean over time.
+- Plot rolling volatility over time.
+- Plot drawdown over time.
+- Support configurable rolling-window analysis.
+
+### Visualization Architecture
+- Maintain independent reusable visualization functions.
+- Use dedicated dashboard functions for composition.
+- Visualization functions return Matplotlib Figure objects.
+- Visualization modules do not calculate financial metrics or persist visualization files.
