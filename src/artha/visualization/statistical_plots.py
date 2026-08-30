@@ -15,6 +15,7 @@ This module does NOT:
     - Validate data.
     - Clean data.
     - Calculate financial metrics.
+    - Save plot files
 """
 
 import pandas as pd
